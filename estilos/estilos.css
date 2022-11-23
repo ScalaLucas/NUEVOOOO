@@ -96,7 +96,7 @@ section{
 
 .header .navbar a:hover{
     color:var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    border-bottom: .1rem solid var(--green);
     padding-bottom: .5rem;
 }
 
@@ -108,7 +108,7 @@ section{
 }
 
 .header .icons div:hover{
-    color:var(--main-color);
+    color:var(--green);
 }
 
 #menu-btn{
@@ -181,7 +181,7 @@ section{
 }
 
 .header .cart-items-container .cart-item .fa-times:hover{
-    color:var(--main-color);
+    color:var(--green);
 }
 
 .header .cart-items-container .cart-item img{
@@ -196,7 +196,7 @@ section{
 
 .header .cart-items-container .cart-item .content .price{
     font-size: 1.5rem;
-    color:var(--main-color);
+    color:var(--green);
 }
 
 .header .cart-items-container .btn{
@@ -692,17 +692,18 @@ input:focus {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 4%;
 }
 
 .box-team > img{
     width: 300px;
-    height: 350px;
+    height: 350px;  
 }
 
 .box-team{
     display: flex;
     flex-direction: column;
+    padding-top: 2%;    
 }
 
 .box-team > h2, h3{
@@ -857,6 +858,14 @@ input:focus {
         flex-direction: column;
      }
 
+     select{
+        padding: 10px;
+        font-size: 1.1rem;
+        outline: none;
+        border: 1px solid #333;
+        border-radius: 5px;
+    }
+
      form{
         display: flex;
         justify-content: center;
@@ -866,6 +875,18 @@ input:focus {
 
      .input-Box2{
        padding-bottom: 2%;
+     }
+
+
+
+     .div3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .div3 > img{
+        width: 90%;
      }
 
      #verticle-line{
@@ -911,6 +932,16 @@ input:focus {
 
     .contenedor-boxes_team{
         margin-top: 1%;
+    }
+
+    .imagen_how{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen_how > img{
+        width: 90%;
     }
 
 
