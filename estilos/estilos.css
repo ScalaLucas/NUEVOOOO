@@ -225,6 +225,14 @@ section{
     color:#fff;
 }
 
+.content > a{
+    font-family: 'Teko', sans-serif;
+}
+
+.content:hover{
+    text-decoration: underline;
+}
+
 .home .content p{
     font-size: 2rem;
     font-weight: lighter;
@@ -426,8 +434,6 @@ p{
 }
 
 
-
-
 .h3style{
     font-size: 5rem;
     color: #626901;
@@ -485,8 +491,10 @@ p{
     flex-direction: column;
 }
 
-.pre_footer > b{
-    font-size: 6rem;
+.pre_footer > p{
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Teko', sans-serif;
 }
 
 /*------------------------------------------------------------------------------------------------ FOOTER -----------------------------------------------------------------------*/
@@ -658,6 +666,59 @@ input:focus {
     color: white;
 }
 
+/*---------------------------------------------------------------------------------- QUIENES SOMOS ---------------------------------------------------------------------------------------*/
+
+.contenedor_quienessomos{
+    display: flex;
+    flex-direction: row;
+}
+
+.title_how{
+    margin-top: 15%;
+    margin-left: 4%;
+}
+
+.title_how > h1{
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8rem;
+    color: var(--green);
+}
+
+.contenedor-boxes_team{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.box-team > img{
+    width: 300px;
+    height: 350px;
+}
+
+.box-team{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-team > h2, h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_team > h1{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width:991px){
@@ -824,6 +885,34 @@ input:focus {
      textarea{
         width: 350px;
      }
+
+          /*----------------------------------------------------------------------------- MEDIA QUERY QUIENES SOMOS ----------------------------------------------------------------------------- */
+
+     .contenedor_quienessomos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .title_how{
+        margin-top: 2%;
+        padding: 0;
+     }
+
+     .title_how > h1{
+        text-align: center;
+        font-family: 'Teko', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+        color: var(--green);
+    }
+
+    .contenedor-boxes_team{
+        margin-top: 1%;
+    }
+
 
 }
 
