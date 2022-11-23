@@ -813,6 +813,18 @@ input:focus {
         height: 0;
      }
 
+     input{
+        width: 60%;
+     }
+     
+     select{
+        width: 60%;
+     }
+
+     textarea{
+        width: 350px;
+     }
+
 }
 
 @media (max-width:450px){
