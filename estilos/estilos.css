@@ -806,20 +806,24 @@ input:focus {
     }
 
     .imagen1 > img{
-        width: 450px;
-        height: 300px;
+        width: 350px;
+        height: 220px;
     }
 
     .imagen2 > img{
-        width: 450px;
-        height: 300px;
+        width: 350px;
+        height: 220px;
+    }
+    .imagen1 > h1, .imagen2 > h1{
+        font-size: 15px;
+        margin-top: 1.5%;
     }
     
-    .imagen1 > h1, p{
+    .imagen1 > p{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .imagen2{
@@ -830,11 +834,19 @@ input:focus {
         margin-top: 3%;
     }
 
-    .imagen2 > h1, p{
+    .imagen2 > p{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .fa-user{
+        font-size: 8px;
+    }
+
+    .fa-clock{
+        font-size: 8px;
     }
 
     .contenedor-text1{
