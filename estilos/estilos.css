@@ -511,8 +511,8 @@ footer{
 
 .div-footer-botton{
     display: flex;
-    justify-content: flex-end;
     gap: 1.5%;
+    justify-content: flex-end;
     margin-right: 2%;
 }
 
@@ -531,6 +531,17 @@ footer{
     font-size: 2rem;
     color: white;
 }
+
+.contenedor_integrantes{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 1.8rem;
+}
+
+
 
 /*---------------------------------------------------------------- LOGOS ----------------------------------------------------------------------------*/
 .logo{
@@ -955,6 +966,17 @@ input:focus {
         font-size: 10px;
     }
 
+    /*----------------------------------------------------------------------------- MEDIA QUERY FOOTER----------------------------------------------------------------------------- */
+
+
+        .contenedor_integrantes > p{
+            font-size: 7px;
+        }
+
+        .div-footer-botton{
+            margin-top: 2%;
+        }
+        
 
     /*----------------------------------------------------------------------------- MEDIA QUERY CLUBES ----------------------------------------------------------------------------- */
 
@@ -1123,11 +1145,6 @@ input:focus {
     .title_clubes{
         margin: 0;
     }
-
-
-
-
-
 
 }
 
