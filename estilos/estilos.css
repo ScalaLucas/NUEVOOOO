@@ -533,6 +533,7 @@ footer{
 }
 
 .contenedor_integrantes{
+    margin-top: 1%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -687,6 +688,24 @@ input:focus {
     color: white;
 }
 
+.div_conditions-reserva{
+    padding-top: 1%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.div_conditions-reserva > p{
+    font-size: 10px;
+}
+
+.fa-ban{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
 /*---------------------------------------------------------------------------------- QUIENES SOMOS ---------------------------------------------------------------------------------------*/
 
 .contenedor_quienessomos{
@@ -825,7 +844,9 @@ input:focus {
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width:991px){
+
+@media (min-width: 992px) and (max-width: 1379px) {
+
 
     html{
         font-size: 55%;
@@ -839,9 +860,52 @@ input:focus {
         padding:2rem;
     }
 
+/*----------------------------------------------------------------------------- MEDIA QUERY RESERVA 991px A 1379px----------------------------------------------------------------------------- */
+
+    form{
+        margin: 0;
+        margin-top: 3%;
+    }
+
+    .div_conditions-reserva > p{
+        font-size: 8px;
+    }
+
+    .contenedor_integrantes > p{
+        font-size: 10px;
+    }
+    
+    input{
+        width: 70%;
+     }
+     
+     select{
+        width: 70%;
+     }
+
+     textarea{
+        width: 350px;
+     }
+
+    #verticle-line{
+        margin-top: 0;
+        width: 0;
+        height: 0;
+     }
+
+    .div3 > img{
+        width: 450px;
+    }
+
+    .title_clubes{
+        margin-top: 15%;
+    }
+
+    
+
 }
 
-@media (max-width:768px){
+@media (max-width:991px){
  /*----------------------------------------------------------------------------- MEDIA QUERY HOME----------------------------------------------------------------------------- */
     #menu-btn{
         display: inline-block;
@@ -1079,6 +1143,10 @@ input:focus {
         width: 350px;
      }
 
+    .div_conditions-reserva > p{
+    font-size: 7px;
+}
+
           /*----------------------------------------------------------------------------- MEDIA QUERY QUIENES SOMOS ----------------------------------------------------------------------------- */
 
      .contenedor_quienessomos{
@@ -1143,7 +1211,7 @@ input:focus {
     }    
 
     .title_clubes{
-        margin: 0;
+        margin-top: 30%;
     }
 
 }
