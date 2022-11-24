@@ -215,6 +215,10 @@ section{
     object-fit: cover;
 }
 
+.content{
+    margin-top: 2%;
+}
+
 .home .content{
     max-width: 60rem;
 }
@@ -229,13 +233,8 @@ section{
     font-family: 'Teko', sans-serif;
 }
 
-.content:hover{
-    text-decoration: underline;
-}
-
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
     color:#eee;
@@ -246,17 +245,14 @@ section{
 .imagen1 > img{
     width: 500px;
     height: 350px;
-
+    border-radius: 10px;
 }
 .imagen2 > img{
     width: 500px;
     height: 350px;
-
+    border-radius: 10px;
 }
 
-.imagen2{
-    margin-bottom: 4%;
-}
 
 .about > h2{
     display: flex;
@@ -272,7 +268,6 @@ section{
     margin-top: 1%;
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10%;
@@ -437,7 +432,7 @@ p{
 .h3style{
     font-size: 5rem;
     color: #626901;
-    padding-top: 10%;
+    padding-top: 3%;
 }
 
 .textfooter2 > p{
@@ -456,25 +451,36 @@ p{
     line-height: 2.5rem;
 }
 
-
-.estilo_footer01, .estilo_footer02, .estilo_footer03 > h2{
+.estilo_footer01 > h2{
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+
+ .estilo_footer02 > h2{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.estilo_footer03 > h2{
+    color: white;
+    font-size: 1.5rem;
 }
 
 .estilo_footer01 > p{
     color:#FFF;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .estilo_footer02 > p{
     color: #FFF;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .estilo_footer03 > p{
     color: #FFF;
-    font-size:18px;
+    font-size:15px;
 }
 
 .fa-drum, .fa-bus, .fa-shirt{
