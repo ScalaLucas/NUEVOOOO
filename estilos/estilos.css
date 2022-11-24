@@ -95,7 +95,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color:var(--main-color);
+    color:var(--green);
     border-bottom: .1rem solid var(--green);
     padding-bottom: .5rem;
 }
@@ -745,7 +745,7 @@ input:focus {
 }
 
 @media (max-width:768px){
-
+ /*----------------------------------------------------------------------------- MEDIA QUERY HOME----------------------------------------------------------------------------- */
     #menu-btn{
         display: inline-block;
     }
@@ -797,16 +797,44 @@ input:focus {
         margin-top: 2%;
         line-height: 3rem;
     }
+
+    .imagen1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagen1 > img{
+        width: 450px;
+        height: 300px;
+    }
+
+    .imagen2 > img{
+        width: 450px;
+        height: 300px;
+    }
     
     .imagen1 > h1, p{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 12px;
     }
+
+    .imagen2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
     .imagen2 > h1, p{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 12px;
     }
 
     .contenedor-text1{
@@ -822,11 +850,11 @@ input:focus {
     }
 
     .estilo_footer01 > h2, .estilo_footer02 > h2, .estilo_footer03 > h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .estilo_footer01 > p, .estilo_footer02 > p, .estilo_footer03 > p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
